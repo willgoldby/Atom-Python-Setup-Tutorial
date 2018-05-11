@@ -59,7 +59,7 @@ Install packages by following these steps:
 
 > Result: You are now familiar with the process for installing packages.
 
-<img alt="video" src="images/install-package-v4.gif" width="500" height="375">
+<img alt="video" src="assets/install-package-v4.gif" width="500" height="375">
 
 ## Install Script package
 The Script package allows you to run a variety of programming languages within Atom.
@@ -74,7 +74,7 @@ The Script package allows you to run a variety of programming languages within A
 
 > Result: You can now run Python within Atom.
 
-<img alt="video" src="images/install-Script.gif" width="500" height="375">
+<img alt="video" src="assets/install-Script.gif" width="500" height="375">
 
 ## Change Python version to run scripts
 
@@ -93,11 +93,11 @@ To download Python 3, go here: (https://www.python.org/)
 
 > Result: You're now using Python 3 to run scripts in Atom
 
-<img alt="video" src="images/change-to-python3.gif" width="500" height="375">
+<img alt="video" src="assets/change-to-python3.gif" width="500" height="375">
 
  > Result: You can see the Python version in the console output.
 
-<img alt="video" src="images/change-to-python3-result.gif" width="500" height="375">
+<img alt="video" src="assets/change-to-python3-result.gif" width="500" height="375">
 
 
 For a more in depth video on this process: [Change Python 2 to Python 3 in Atom](https://discuss.atom.io/t/how-can-i-switch-python-version-for-script/24036/14)
@@ -120,7 +120,7 @@ The default hotkey is <kbd>cmd-i</kbd>. I think <kbd>cmd-l</kbd> is a little eas
 
 > Result: Your new hotkey will run your script.
 
-<img alt="video" src="images/change-hotkeys.gif" width="500" height="375">
+<img alt="video" src="assets/change-hotkeys.gif" width="500" height="375">
 
 
 Here is a list of all the ways to run scripts in Atom
@@ -162,7 +162,7 @@ Changing the console font output size and color makes it easier to view your con
 
 > Result: Your console output font size and color have changed.
 
-<img alt="video" src="images/change-console-output.gif" width="500" height="375">
+<img alt="video" src="assets/change-console-output.gif" width="500" height="375">
 
 ## Install file icon package
 
@@ -177,7 +177,7 @@ Having recognizable icons associated with files makes scanning a large repositor
 
 > Result: Icons are not associated with your file extensions.
 
-<img alt="video" src="images/file-icons.gif" width="500" height="375">
+<img alt="video" src="assets/file-icons.gif" width="500" height="375">
 
 
 
@@ -198,7 +198,7 @@ Minimap provides a zoomed-out view of your file in the upper-right of Atom's scr
 1. Choose between *Jedi* and *Kite* (I'll choose Jedi since there's no signup.)
 > Result: Minimap is now installed, making it easy to navigate long files.
 
-<img alt="video" src="images/minimap.gif" width="500" height="375">
+<img alt="video" src="assets/minimap.gif" width="500" height="375">
 
 ## Install autocomplete package
 
@@ -217,7 +217,7 @@ Autocomplete offers a variety of function and method suggestions when writing co
 
 > Result: Autocomplete is now installed, which can help increase your coding speed.
 
-<img alt="video" src="images/autocomplete.gif" width="500" height="375">
+<img alt="video" src="assets/autocomplete.gif" width="500" height="375">
 
 ## Install the predawn theme
 
@@ -239,7 +239,7 @@ The predawn theme can be installed by doing the following:
 
 > Result: Your syntax colors have changed and are now based on the predawn stylesheet.
 
-<img alt="video" src="images/predawn.gif" width="500" height="375">
+<img alt="video" src="assets/predawn.gif" width="500" height="375">
 
 ## Install Python-autopep8 packages
 
@@ -268,7 +268,7 @@ You can learn about Pep 8 here: https://www.python.org/dev/peps/pep-0008/
 
 > Result: Your Python files will be formatted according to the Pep 8 standards every time you save.
 
-<img alt="video" src="images/pep8.gif" width="500" height="375">
+<img alt="video" src="assets/pep8.gif" width="500" height="375">
 
 ## Install linter-flake8
 
@@ -298,7 +298,7 @@ Linter-flake8 shows errors in your base, which helps debugging before you run yo
 
 > Result: You can now see the error messages by clicking the orange '!' in the bottom-left.
 
-<img alt="video" src="images/linter-flake8.gif" width="500" height="375">
+<img alt="video" src="assets/linter-flake8.gif" width="500" height="375">
 
 ## Customize Atom's default settings
 
@@ -324,7 +324,7 @@ We'll make the following changes to the editor.
 
 > Result: Your editor will be changed according to those values.
 
-<img alt="video" src="images/editor-1.gif" width="500" height="375">
+<img alt="video" src="assets/editor-1.gif" width="500" height="375">
 
 ## Push to GitHub from inside Atom
 
@@ -336,7 +336,7 @@ If you use GitHub to host your code, Atom makes it easy to make commits, push, a
 
 > Result: You can now use GitHub within Atom
 
-<img alt="video" src="images/github.gif" width="500" height="375">
+<img alt="video" src="assets/github.gif" width="500" height="375">
 
 
-> End
+## You're done! Congratulations! Now it's time to write some great code!
