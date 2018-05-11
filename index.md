@@ -6,6 +6,7 @@ layout: home
 ---
 
 # Set up Atom for a Python Programming Environment
+
 Atom is an open source text editor developed by engineers at GitHub. A great text editor is at the core of writing and documenting good code. In this How-To guide you will learn how to set up Atom on a Mac to make coding in Python easy and streamlined.
 
 ## Prerequisites
@@ -24,16 +25,16 @@ To install Atom and begin customizing it for a Python on environment, you'll nee
 | Package | Function |
 |  ------ | -------  |
 | Script package| Runs programming languages within Atom|
-|Autocomplete package | Explain this |
-| Mini Map package | Explain this |
-| Python-autopep8 package | Explain this |
+|Autocomplete package | Gives word and syntax suggestions as you type |
+| Mini Map package | Provides a zoomed-out view of an entire file |
+| Python-autopep8 package | Formats code base according to Pep 8 standards |
 | Python Linter-flake 8 | Checks for errors in the code base |
 
 
 
 ## Install Atom
 
-Go to http://atom.io/ and follow the installation instructions.
+Go to [http://atom.io/](http://atom.io/) and follow the installation instructions.
 
 ## Disable default welcome windows
 Two welcome windows appear every time Atom is opened.
