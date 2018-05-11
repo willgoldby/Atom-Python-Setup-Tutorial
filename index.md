@@ -26,7 +26,7 @@ To install Atom and begin customizing it for a Python on environment, you'll nee
 |  ------ | -------  |
 | Script package| Runs programming languages within Atom|
 |Autocomplete package | Gives word and syntax suggestions as you type |
-| Mini Map package | Provides a zoomed-out view of an entire file |
+| Minimap package | Provides a zoomed-out view of an entire file |
 | Python-autopep8 package | Formats code base according to Pep 8 standards |
 | Python Linter-flake 8 | Checks for errors in the code base |
 
