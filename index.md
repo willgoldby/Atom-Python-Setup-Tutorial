@@ -291,7 +291,7 @@ Linter-flake8 shows errors in your code base, which helps debugging before you r
 
 # Customize Atom's default settings
 
-There are a number of editor settings that can be changed.
+There are a number of settings that change the editor.
 
 We'll make the following changes to the editor.
 
@@ -301,8 +301,9 @@ We'll make the following changes to the editor.
 | Scroll past end | Allows scrolling past the end of the document |
 | Show indent guide | Shows which indents line up in code blocks|
 | Tab length | Sets default tab spacing |
-| Console font and output | Changes the font size and color of the console |
+| Console font and output | Changes the font size and color of the console output |
 
+#### To start making changes to the editor, follow these instructions:
 
 1. Go to `Preferences` > `Editor`
 
