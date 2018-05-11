@@ -328,7 +328,9 @@ Changing the console font output size and color makes it easier to view your con
 1. Click `Your stylesheet`.
 
 1. Scroll to the bottom and paste this code in.
-```
+
+{% highlight ts %}
+
 .script-view .line {
   font-size: 16px;
 }
@@ -339,7 +341,9 @@ Changing the console font output size and color makes it easier to view your con
 .script-view .-linked-path {
   color: red
 }
-```
+
+{% endhighlight %}
+
 1. Click `File` > `Save`.
 
 1. If you want to change the color or font size, change the values next to `font-size` and `color`.
