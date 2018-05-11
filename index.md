@@ -5,7 +5,7 @@
 layout: home
 ---
 
-## Set up Atom for Python on Mac
+
 Atom is an open source text editor developed by engineers at GitHub. A great text editor is at the core of writing and documenting good code. In this How-To guide you will learn how to set up Atom on a Mac to make coding in Python easy and streamlined.
 
 ## Prerequisites
