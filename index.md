@@ -303,7 +303,7 @@ We'll make the following changes to the editor.
 | Tab length | Sets default tab spacing |
 | Console font and output | Changes the font size and color of the console output |
 
-#### To start making changes to the editor, follow these instructions:
+### To start making changes to the editor, follow these instructions:
 
 1. Go to `Preferences` > `Editor`
 
