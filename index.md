@@ -335,3 +335,6 @@ If you use GitHub to host your code, Atom makes it easy to make commits, push, a
 > Result: You can now use GitHub within Atom
 
 <img alt="video" src="images/github.gif" width="500" height="375">
+
+
+> End
