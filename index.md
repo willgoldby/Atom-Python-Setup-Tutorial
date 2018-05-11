@@ -42,7 +42,7 @@ Two welcome windows appear every time Atom is opened.
 To disable this feature, uncheck the `Show welcome guide when opening Atom` box.
 > Result: The default welcome window will now not appear each time Atom is opened.
 
-<img alt="video" src="images/remove-welcome-page.gif" width="500" height="375">
+<img alt="video" src="/assets/remove-welcome-page.gif" width="500" height="375">
 
 ## Install packages
 Installing packages are the heart of customizing and configuring Atom.
