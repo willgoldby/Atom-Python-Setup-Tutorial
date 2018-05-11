@@ -41,7 +41,7 @@ Two welcome windows appear every time Atom is opened.
 
 
 To disable this feature, uncheck the `Show welcome guide when opening Atom` box.
-> Result: The default welcome window will now not appear each time Atom is opened.
+> Result: The default welcome window will not appear each time Atom is opened.
 
 
 
@@ -69,9 +69,9 @@ The Script package allows you to run a variety of programming languages within A
 
 2. Click `Package` next to the search bar.
 
-3. Type `Script` name into the search bar.
+3. Type `Script` into the search bar.
 
-4. Exit *Settings* windows after installing.
+4. Exit the *Settings* windows after installing.
 
 > Result: You can now run Python within Atom.
 
@@ -79,8 +79,8 @@ The Script package allows you to run a variety of programming languages within A
 
 ## Change Python version to run scripts
 
-Script will use the default Python version on your Mac, which is Python 2. If you've downloaded Python 3, you can use Python 3 to run your scripts.
-To download Python 3, go here: (https://www.python.org/)
+Script will use the default Python version on your Mac, which might Python 2. If you've downloaded Python 3, you can use Python 3 to run your scripts.
+To download Python 3, go here: [https://www.python.org/](https://www.python.org/)
 
 1. Click `Atom` > `Preferences` > `Packages`.
 
@@ -101,9 +101,9 @@ To download Python 3, go here: (https://www.python.org/)
 <img alt="video" src="assets/change-to-python3-result.gif" width="500" height="375">
 
 
-For a more in depth video on this process: [Change Python 2 to Python 3 in Atom](https://discuss.atom.io/t/how-can-i-switch-python-version-for-script/24036/14)
+For a more in depth video on this process, go here: [Change Python 2 to Python 3 in Atom](https://discuss.atom.io/t/how-can-i-switch-python-version-for-script/24036/14)
 
-## Change hotkeys
+## Change Script's hotkeys
 
 There are many ways to run a Python script, but the easiest way is to use hot keys.
 
@@ -113,10 +113,15 @@ The default hotkey is <kbd>cmd-i</kbd>. I think <kbd>cmd-l</kbd> is a little eas
 
 2. Type `Script` into the search bar.
 4. Click `Settings`.
+
 5. Click `View Code`.
+
 1. Click `Scripts` > `keymaps` > `scripts.cson`.
+
 1. Change the letter after `cmd` to your preference.
+
 1. Click `File` > `Save`.
+
 1. Close Atom and then restart it.
 
 > Result: Your new hotkey will run your script.
@@ -134,36 +139,6 @@ Here is a list of all the ways to run scripts in Atom
 | Script: Run with profile   | <kbd>shift-cmd-k</kbd>              | <kbd>shift-ctrl-alt-b</kbd> | Runs the selection or whole file with the specified profile                   |
 | Script: Close View         | <kbd>esc</kbd> or <kbd>ctrl-w</kbd> | <kbd>esc</kbd>              | Closes the script view window                                                 |
 | Script: Kill Process       | <kbd>ctrl-c</kbd>                   | <kbd>ctrl-q</kbd>           | Kills the current script process
-
-
-## Change console font output size and color
-
-Changing the console font output size and color makes it easier to view your console results.
-
-1. Click `Atom` > `Preference`.
-
-1. Click `Themes`.
-1. Click `Your stylesheet`.
-1. Scroll to the bottom and paste this code in.
-```
-.script-view .line {
-  font-size: 16px;
-}
-.script-view .panel-body pre {
-  color: white
-}
-
-.script-view .-linked-path {
-  color: red
-}
-```
-1. Click `File` > `Save`.
-
-1. If you want to change the color or font size, change the values next to `font-size` and `color`.
-
-> Result: Your console output font size and color have changed.
-
-<img alt="video" src="assets/change-console-output.gif" width="500" height="375">
 
 ## Install file icon package
 
@@ -313,19 +288,51 @@ We'll make the following changes to the editor.
 | Scroll past end | Allows scrolling past the end of the document |
 | Show indent guide | Shows which indents line up in code blocks|
 | Tab length | Sets default tab spacing |
+| Console font and output | Changes the font size and color of the console |
 
 
 1. Go to `Preferences` > `Editor`
+
 2. Scroll down and make the following changes:
     - Change `Font Size` to `16`.
     - Click the box `Scroll Past End`.
     - Click the box `Show Indent Guide`.
     - Change `Tab Length` to `4`.
 
-
 > Result: Your editor will be changed according to those values.
 
 <img alt="video" src="assets/editor-1.gif" width="500" height="375">
+
+## Change console font output size and color
+
+Changing the console font output size and color makes it easier to view your console results.
+
+1. Click `Atom` > `Preference`.
+
+1. Click `Themes`.
+
+1. Click `Your stylesheet`.
+
+1. Scroll to the bottom and paste this code in.
+```
+.script-view .line {
+  font-size: 16px;
+}
+.script-view .panel-body pre {
+  color: white
+}
+
+.script-view .-linked-path {
+  color: red
+}
+```
+1. Click `File` > `Save`.
+
+1. If you want to change the color or font size, change the values next to `font-size` and `color`.
+
+> Result: Your console output font size and color have changed.
+
+<img alt="video" src="assets/change-console-output.gif" width="500" height="375">
 
 ## Push to GitHub from inside Atom
 
