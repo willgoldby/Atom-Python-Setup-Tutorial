@@ -73,11 +73,11 @@ The Script package allows you to run a variety of programming languages within A
 
 4. Exit the *Settings* windows after installing.
 
-> Result: You can now run Python within Atom.
+> Result: You can now run Python within Atom. On a Mac the hotkey is <kbd>cmd-i</kbd>
 
 <img alt="video" src="assets/install-Script.gif" width="500" height="375">
 
-## Change Python version to run scripts
+## Change Python version Script uses to run Python
 
 Script will use the default Python version on your Mac, which might Python 2. If you've downloaded Python 3, you can use Python 3 to run your scripts.
 To download Python 3, go here: [https://www.python.org/](https://www.python.org/)
@@ -85,11 +85,17 @@ To download Python 3, go here: [https://www.python.org/](https://www.python.org/
 1. Click `Atom` > `Preferences` > `Packages`.
 
 2. Type `Script` into the search bar.
+
 4. Click `Settings`.
+
 5. Click `View Code`.
+
 1. Click `Scripts` > `lib` > `Grammars` > `python.coffee`.
+
 1. Under *Selection Based* and *File Based* type a '3' after *python*.
+
 1. Save the file by pressing <kbd>cmd-s</kbd> or `File` > `Save`.
+
 1. Close Atom and the reopen it.
 
 > Result: You're now using Python 3 to run scripts in Atom
@@ -140,7 +146,7 @@ Here is a list of all the ways to run scripts in Atom
 | Script: Close View         | <kbd>esc</kbd> or <kbd>ctrl-w</kbd> | <kbd>esc</kbd>              | Closes the script view window                                                 |
 | Script: Kill Process       | <kbd>ctrl-c</kbd>                   | <kbd>ctrl-q</kbd>           | Kills the current script process
 
-## Install file icon package
+## Install file-icons package
 
 Having recognizable icons associated with files makes scanning a large repository easy.
 
@@ -160,18 +166,20 @@ Having recognizable icons associated with files makes scanning a large repositor
 
 ## Install minimap package
 
-Minimap provides a zoomed-out view of your file in the upper-right of Atom's screen. This is nice when working with long files in order to move between parts of the code quickly.
+Minimap provides a zoomed-out view of your file in the upper-right corner of Atom's screen. This is nice when working with long files in order to move between parts of the code quickly.
 
 
 1. Click  `Atom` > `Preferences` > `Install`.
 
 2. Click `Package` next to the search bar.
 
-3. Type `minimap` name into the search bar and press `Return`.
+3. Type `minimap` into the search bar and press `Return`.
 
 1. Click `Install`.
 
 1. Choose between *Jedi* and *Kite* (I'll choose Jedi since there's no signup.)
+
+
 > Result: Minimap is now installed, making it easy to navigate long files.
 
 <img alt="video" src="assets/minimap.gif" width="500" height="375">
@@ -197,7 +205,7 @@ Autocomplete offers a variety of function and method suggestions when writing co
 
 ## Install the predawn theme
 
-Themes determine both the look of user interface looks and  color of the coding syntax. You can change your themes based on the UI or the syntax. We'll change the syntax theme to predawn, a slightly muted color scheme. Explore themes to find one you enjoy.
+Themes determine both the look of the user interface looks and the color of the coding syntax. You can change your themes for both the UI and syntax. We'll change the syntax theme to predawn, a slightly muted color scheme. Explore themes to find one you enjoy.
 
 The predawn theme can be installed by doing the following:
 
@@ -211,35 +219,39 @@ The predawn theme can be installed by doing the following:
 
 1. Click `Themes` on the left navigation bar.
 
-1. Click `Syntax Theme` drop down and choose `Predawn`.
+1. Click the `Syntax Theme` drop down menu and choose `Predawn`.
 
 > Result: Your syntax colors have changed and are now based on the predawn stylesheet.
 
 <img alt="video" src="assets/predawn.gif" width="500" height="375">
 
-## Install Python-autopep8 packages
+## Install Python-autopep8 package
 
-The Python autopep8 package formats your Python code according to the Pep 8 standards.
+The Python autopep8 package formats your Python code according to Pep 8 standards.
 
-You can learn about Pep 8 here: https://www.python.org/dev/peps/pep-0008/
+You can learn about Pep 8 here: [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)
 
 1. Click  `Atom` > `Preferences` > `Install`.
 
 2. Click `Package` next to the search bar.
 
 3. Type `pep8` into the search bar and press `Return`.
+
 2. Choose `python autopep8`
 
 1. Click `Install`.
 
 2. Click `Settings` and scroll to the bottom.
-2. Copy the line `pip install autopep8`.
+
+2. Copy the line "pip install autopep8".
+
 3. Open a terminal window.
     - [Learn to open a terminal window](https://www.youtube.com/watch?v=zw7Nd67_aFw)
 
-2. Copy and paste the pip install line `pip install autopep8`. If the error `pip command not found` appears, type `pip3 install autopep8`.
+2. Paste the pip install line "pip install autopep8" into your terminal window. If the error `pip command not found` appears, type `pip3 install autopep8`.
 
-3. Exit terminal window after the installation.
+3. Exit the terminal window after the installation.
+
 2. Click the box `Format On Save` in the settings pane. This formats your files to the Pep 8 standards every time you save.  
 
 > Result: Your Python files will be formatted according to the Pep 8 standards every time you save.
@@ -248,13 +260,14 @@ You can learn about Pep 8 here: https://www.python.org/dev/peps/pep-0008/
 
 ## Install linter-flake8
 
-Linter-flake8 shows errors in your base, which helps debugging before you run your code.
+Linter-flake8 shows errors in your code base, which helps debugging before you run your code.
 
 1. Click  `Atom` > `Preferences` > `Install`.
 
 2. Click `Package` next to the search bar.
 
 3. Type `linter flake 8` into the search bar and press `Return`.
+
 2. Choose `linter-flake8`
 
 1. Click `Install`.
@@ -263,20 +276,20 @@ Linter-flake8 shows errors in your base, which helps debugging before you run yo
 
 2. Click `Settings` and scroll to the bottom.
 
-2. Copy the line `pip install flake8`.
+2. Copy the line "pip install flake8".
 
 3. Open a terminal window.
     - [Learn to open a terminal window](https://www.youtube.com/watch?v=zw7Nd67_aFw)
 
-2. Copy and paste the pip install line `pip install flake8`. If the error `pip command not found` appears, type `pip3 install autopep8`.
+2. Paste the pip install line "pip install flake8" into your terminal window. If the error `pip command not found` appears, type `pip3 install autopep8`.
 
-3. Exit terminal window after the installation.
+3. Exit the terminal window after the installation.
 
 > Result: You can now see the error messages by clicking the orange '!' in the bottom-left.
 
 <img alt="video" src="assets/linter-flake8.gif" width="500" height="375">
 
-## Customize Atom's default settings
+# Customize Atom's default settings
 
 There are a number of editor settings that can be changed.
 
