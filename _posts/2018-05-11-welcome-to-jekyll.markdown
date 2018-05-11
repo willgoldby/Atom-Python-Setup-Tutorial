@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Get Atom ready for Python"
+title: 
 date:   2018-05-11 09:28:20 -0400
 categories: jekyll update
 ---

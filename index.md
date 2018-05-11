@@ -327,7 +327,7 @@ Changing the console font output size and color makes it easier to view your con
 
 1. Click `Your stylesheet`.
 
-1. Scroll to the bottom and paste this code in.
+1. Scroll to the bottom and paste the following code in:
 
 {% highlight ts %}
 
@@ -352,13 +352,13 @@ Changing the console font output size and color makes it easier to view your con
 
 <img alt="video" src="assets/change-console-output.gif" width="500" height="375">
 
-## Push to GitHub from inside Atom
+# Push to GitHub from inside Atom
 
 If you use GitHub to host your code, Atom makes it easy to make commits, push, and pull.
 
 1. Click `View` > `Toggle GitHub Tab`
 
-1. Click the `1 file` icon in the bottom-right corner. You can now see the familiar window stage, commit, and push and pull.
+1. Click the `file` icon in the bottom-right corner. You can now see the familiar window to stage, commit, push, and pull.
 
 > Result: You can now use GitHub within Atom
 
